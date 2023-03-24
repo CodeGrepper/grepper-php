@@ -1,0 +1,29 @@
+{
+  "name": "grepper/grepper-php",
+  "description": "Grepper PHP Library",
+  "keywords": [
+    "grepper",
+    "api",
+    "grepper php client",
+    "grepper api"
+  ],
+  "homepage": "https://www.grepper.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Grepper and contributors",
+      "homepage": "https://github.com/codegrepper/grepper-php"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grepper\\": "lib/"
+    }
+  }
+}
