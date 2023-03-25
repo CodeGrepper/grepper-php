@@ -15,7 +15,6 @@
       "homepage": "https://github.com/codegrepper/grepper-php"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=5.6.0",
     "ext-curl": "*",
